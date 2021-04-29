@@ -1,0 +1,7 @@
+배치 사이즈가 10일 때,
+12개의 레이어에 대해서
+concat이후 헤드별로 결과값을 나눠서
+각 인코더별 input과 output의 L2-Norm 그리기
+첫 번째 인코더의 input을 어떻게 정해야할지 몰라서 0~11이 아닌
+인코더 1~11번까지의 input과 output을 L2 norm으로 비교함.
+elements[layer][batch][seq][token]
